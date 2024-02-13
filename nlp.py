@@ -5,7 +5,7 @@ from azure.core.credentials import AzureKeyCredential
 from azure.ai.textanalytics import TextAnalyticsClient
 
 #Autenticación azure
-key="1f3fb45cd598493ea9674e55dcecab6b"
+key="<key>"
 endpoint= "https://pruebaenvf.cognitiveservices.azure.com/"
 
 credencial= AzureKeyCredential(key)
